@@ -3,3 +3,36 @@ p.abstract {
     color: blue;
     font-size: 1.5em;
 }
+
+p {
+    color: brown;
+}
+
+div.footer p {
+    color: #808080;
+}
+
+div.footer {
+    text-align: center;
+    background-color: #dddddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+div.footer [
+    text-align: center;
+    background-color: #dddddd;
+    padding: 20px;
+    margin-top: 20px;
+    p {
+        color: #808080;
+    }
+]
+
+ul li {
+    color: #22aa22;
+}
+
+div.cutediv {
+    color: #22aa22;
+}
